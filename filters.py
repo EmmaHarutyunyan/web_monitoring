@@ -3,7 +3,7 @@ def is_valid(title):
         return False
 
     bad_words = ["ad", "sponsored", "promo", "advertisement"]
-    good_words = ["nike", "adidas", "shoe", "sneaker"]  # optional
+    good_words = ["nike", "adidas", "shoe", "sneaker"]  
 
     t = title.lower()
 
