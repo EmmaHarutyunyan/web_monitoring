@@ -19,32 +19,32 @@ Enterprise Monitor is an automated system that scans Amazon for new product list
 ### INSTALLATION
 
 1. **Clone the repository:**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/EmmaHarutyunyan/web_monitoring.git
    cd web_monitoring
-   \`\`\`
+   ```
 
 2. **Install dependencies:**
-   \`\`\`bash
+   ```bash
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 ### CONFIGURATION
 
 Create a `.env` file in the root directory:
-\`\`\`env
+```env
 TELEGRAM_TOKEN=your_telegram_bot_token
 TELEGRAM_CHAT_ID=your_chat_id
 TARGET_URL=https://www.amazon.com/s?k=sneakers
 CHECK_INTERVAL=300
-\`\`\`
+```
 
 ### USAGE
 
 Run the project:
-\`\`\`bash
+```bash
 python main.py
-\`\`\`
+```
 
 ### NOTES
 - **Compatibility:** Ensure your ChromeDriver version matches your installed Chrome browser.
